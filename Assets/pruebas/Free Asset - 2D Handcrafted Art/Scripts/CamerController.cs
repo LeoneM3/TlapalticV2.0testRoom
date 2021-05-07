@@ -6,6 +6,7 @@ public class CamerController : MonoBehaviour {
     public float speed;
     public float clampLeft;
     public float clampRight;
+    public GameObject seguir;
 
     private float cameraX;
 
@@ -27,7 +28,7 @@ public class CamerController : MonoBehaviour {
         }
         if (Input.GetKey(KeyCode.Space))
         {
-            Debug.Log(cameraX);
+            //Debug.Log(cameraX);
         }
     }
 }
